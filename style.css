@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px 0 24px;
+  padding: 0 300px 0 300px;
   
 }
 
@@ -48,3 +48,180 @@ ul a {
 
 /* ******************************** */
 
+/* Hero */
+
+.hero {
+  height: 420px;
+  background: #1F2937;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 300px 0 300px;
+}
+
+.hero-text {
+  width: 360px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-image img {
+  width: 400px;
+  height: auto;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  width: 100px;
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  color: whitesmoke;
+  padding: 10px;
+  font-weight:bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  background: #1e5fc9
+}
+
+/***********************************/
+
+/* Gallery */
+
+.gallery {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+
+  
+}
+
+.gallery .cards {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 50px;
+
+  
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  color: #515153;
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+  border-color: #041633;
+  border-radius: 24px;
+  border-style: none;
+  border-width: 5px;
+  box-shadow: 2px 2px 8px rgb(155, 155, 155);
+}
+
+.gallery-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+}
+
+/********************************/
+
+/* Quote */
+
+.quote {
+  height: 400px;
+  background: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.quote-text {
+  width: 720px;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+}
+
+/********************************/
+
+/* Call to action */
+
+.call-to-action {
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-box {
+  display: flex;
+  width: 700px;
+  background: #3882F6;
+  color: whitesmoke;
+  padding: 20px 80px 20px 80px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cta-box button {
+  border: 2px solid white;
+  flex-grow: 0;
+}
+
+.cta-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cta-description {
+  color: rgb(221, 221, 221);
+}
+
+/*********************************/
+
+/* Footer */
+
+.footer {
+  height: 72px;
+  background: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
